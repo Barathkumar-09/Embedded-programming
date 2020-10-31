@@ -1,4 +1,3 @@
-# import modules
 import RPi.GPIO as GPIO
 import time
 # setup pins
@@ -8,7 +7,6 @@ GPIO.setup(11, GPIO.IN)
 GPIO.setup(8, GPIO.OUT)
 GPIO.setup(3, GPIO.OUT)
 
-#ir
 i=0
 def ISRL2H():
     print("\nIntrupt service routine : Low to High Detected !\n")
