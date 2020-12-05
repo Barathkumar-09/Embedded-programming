@@ -9,7 +9,7 @@ rain = input("Enter rainy or not:")
  
 def getsens():
     sensor_log = [{'sensor':'Temperature','value':temparature},
-                  {'sensor':'Humidity','value':humidity},
+                  {'sensor':'Humidity','value':humidity},    
                   {'sensor':'Windspeed','value':windspeed},
                   {'sensor':'Rain','value':rain}]
     return dict(data=sensor_log)
